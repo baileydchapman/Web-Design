@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alpine Summer Camp - Registration</title>
+</head>
+<body>
+  <h1>Camper Registration</h1>
+  <form action="#" method="post">
+    <label for="first-name">First Name:</label>
+    <input type="text" id="first-name" name="first_name" required>
+    <label for="last-name">Last Name:</label>
+    <input type="text" id="last-name" name="last_name" required>
+
+    <label for="bio">Tell us about your child:</label>
+    <textarea id="bio" name="bio" placeholder="Write something about your camper..." rows="4"></textarea>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+
+    <label>T-Shirt Size:</label><br>
+    <input type="radio" id="small" name="tshirt_size" value="small" checked>
+    <label for="small">Small</label>
+    <input type="radio" id="medium" name="tshirt_size" value="medium">
+    <label for="medium">Medium</label>
+    <input type="radio" id="large" name="tshirt_size" value="large">
+    <label for="large">Large</label>
+    <br>
+
+    <label>Choose Your Camper's Favorite Activities:</label><br>
+    <input type="checkbox" id="fishing" name="activities" value="Fishing">
+    <label for="fishing">Fishing</label>
+    <input type="checkbox" id="hiking" name="activities" value="Hiking">
+    <label for="hiking">Hiking</label>
+    <input type="checkbox" id="swimming" name="activities" value="Swimming">
+    <label for="swimming">Swimming</label>
+    <br>
+
+    <label for="age">Age:</label>
+    <select id="age" name="age">
+      <option value="6-8">6-8</option>
+      <option value="9-11">9-11</option>
+      <option value="12-14">12-14</option>
+      <option value="15-17">15-17</option>
+    </select>
+
+    <label for="photo">Upload Photo:</label>
+    <input type="file" id="photo" name="photo">
+<br>
+
+    <label for="date">Preferred Start Date:</label>
+    <input type="date" id="date" name="start_date">
+      <input type="submit" value="Register Now">
+      <input type="reset" value="Cancel">
+  </form>
+
+    <a href="index.html"> Back to Home Page</a>
+</body>
+</html>
